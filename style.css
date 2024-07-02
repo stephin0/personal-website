@@ -96,12 +96,8 @@ section a{
 #about-me{
     text-align: center;
 }
-.image img{
-    width: 40px;
-}
-.image{
-    height: 150px;
-}
+
+
 #flipkartimg{
     width: 220px;
     height: 130px;
@@ -121,3 +117,7 @@ section a{
     background-color: black;
     color: white;
 }
+strong{
+    color: rgba(170, 70, 70, 0.555);
+}
+

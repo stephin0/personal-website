@@ -2,33 +2,69 @@
  @media (max-width:2560px){
 }
 @media (max-width:1440px){
-}
-@media (max-width:1024px){
     #flipkartimg{
-        width: 170px;
-        height: 90px;
+        width: 320px;
+        height:140px;
         
    }
    #amazonimg{
-       width: 170px;
-       height: 90px;
+       width: 320px;
+       height:140px;
               
    }
    .hover{
-       padding:3px;
+       padding:5px;
+       font-size: 18px;
+       margin: 0;
+       margin-top: 5px;
+       margin-bottom: 5px;
+       margin-left: 8px;
+       margin-right:8px;
+   }
+   .heading-1{
+       font-size: 1.5rem;
+   }
+   .projects-subtitle{
+      font-size: 16px;
+   }
+    .heading-project{
+      font-size: 40px;
+      margin-bottom: 1rem;
+   }
+   .space{
+    padding-top: 2rem;
+
+   }
+}
+@media (max-width:1024px){
+    #flipkartimg{
+        width: 230px;
+        height:100px;
+        
+   }
+   #amazonimg{
+       width: 230px;
+       height:100px;
+              
+   }
+   .hover{
+       padding:2px;
        font-size: 15px;
        margin: 0;
        margin-top: 5px;
        margin-bottom: 5px;
+       margin-left: 5px;
+       margin-right:5px;
    }
    .heading-1{
-       font-size: 1.3rem;
+       font-size: 1rem;
    }
    .projects-subtitle{
-      font-size: 13px;
+      font-size: 15px;
    }
     .heading-project{
-      font-size: 26px;
+      font-size: 30px;
+      margin-bottom: 1rem;
    }
    .space{
     padding-top: 1rem;
@@ -37,30 +73,31 @@
 }
 @media (max-width:768px){
     #flipkartimg{
-        width: 170px;
-        height: 90px;
+        width: 200px;
+        height: 100px;
         
    }
    #amazonimg{
-       width: 170px;
-       height: 90px;
+       width: 200px;
+       height: 100px;
               
    }
    .hover{
        padding:3px;
-       font-size: 15px;
+       font-size: 12px;
        margin: 0;
        margin-top: 5px;
        margin-bottom: 5px;
    }
    .heading-1{
-       font-size: 1.3rem;
+       font-size: 1rem;
    }
    .projects-subtitle{
-      font-size: 13px;
+      font-size: 12px;
    }
     .heading-project{
-      font-size: 26px;
+      font-size: 20px;
+      margin-bottom: 1rem;
    }
    .space{
     padding-top: 1rem;
@@ -93,6 +130,7 @@
    }
     .heading-project{
       font-size: 22px;
+      margin-bottom: 1rem;
    }
    .space{
     padding-top: 1rem;
@@ -121,7 +159,7 @@
        font-size: .9rem;
    }
    .space{
-    padding-top: 1.5rem;
+    padding-top: 3rem;
 }
 }
 @media (max-width:320px){
