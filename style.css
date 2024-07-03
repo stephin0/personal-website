@@ -76,11 +76,13 @@ a:hover{
 section{
     /* margin-top:5rem ; */
     height: 100vh;
+    background-color: #024950;
     
 }
 section a{
     text-decoration: none;
     color: rgb(17, 17, 17);
+    
 }
 #hero-section{
     height: 82.5vh;
@@ -120,4 +122,14 @@ section a{
 strong{
     color: rgba(170, 70, 70, 0.555);
 }
-
+.bg-color{
+    background-color: #AFDDE5;
+}
+@media(max-width:1400px){
+    section{
+        /* margin-top:5rem ; */
+        height: 100vh;
+        background-color: #024950;
+        
+    }
+}

@@ -139,13 +139,13 @@
 }
 @media (max-width:375px){
     #flipkartimg{
-        width: 105px;
-        height: 55px;
+        width: 100px;
+        height: 50px;
         
    }
    #amazonimg{
-       width: 105px;
-       height: 55px;
+       width: 100px;
+       height: 50px;
               
    }
    .hover{
@@ -156,10 +156,20 @@
        margin-bottom: 5px;
    }
    .heading-1{
-       font-size: .9rem;
+       font-size: .8rem;
    }
    .space{
-    padding-top: 3rem;
+    padding-top: 2rem;
+}
+.space{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.space-1{
+    margin-bottom: .5rem;
 }
 }
 @media (max-width:320px){
@@ -179,5 +189,12 @@
     }
     .space{
         padding-top: 2rem;
+    }
+    .space{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        justify-content: space-evenly;
+        align-items: center;
     }
 }
