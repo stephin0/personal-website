@@ -12,8 +12,11 @@
 }
 #nav-container{
     display: flex;
+    position:fixed;
+    z-index: 1;
+    width: 100%;
     justify-content: space-around;
-    height: 17vh;
+    height: 13vh;
     align-items: center;
     background-color: aliceblue;
 }
@@ -76,8 +79,6 @@ a:hover{
 section{
     /* margin-top:5rem ; */
     height: 100vh;
-    background-color: #024950;
-    
 }
 section a{
     text-decoration: none;
@@ -85,10 +86,10 @@ section a{
     
 }
 #hero-section{
-    height: 82.5vh;
     display: flex;
     align-items: center;
 }
+
 .git-img img {
     width: 50px;
 }
@@ -100,13 +101,12 @@ section a{
 }
 
 
-#flipkartimg{
-    width: 220px;
-    height: 130px;
+
+.image-container{
+    width: 90%;
 }
-#amazonimg{
-    width: 220px;
-    height: 130px;
+.image-container img{
+    width: 98.76%;
 }
 .hover{
     background-color: aliceblue;
@@ -125,11 +125,10 @@ strong{
 .bg-color{
     background-color: #AFDDE5;
 }
-@media(max-width:1400px){
-    section{
-        /* margin-top:5rem ; */
-        height: 100vh;
-        background-color: #024950;
-        
-    }
+#about-me li::before{
+    content: '😄';
+}
+#div{
+    
+    height: 90px;
 }

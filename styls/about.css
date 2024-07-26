@@ -1,5 +1,51 @@
 
  @media (max-width:2560px){
+    #about--greet{
+        font-size: 30px;
+        margin: 0;
+    }
+    #about-name{
+        font-size:70px;
+    }
+    #about-description{
+        font-size:30px;
+        max-width: 60ch;
+        margin: 0 auto;
+    }
+     .image img{
+        width: 40px;
+        border-radius: 50%;
+    } 
+    .image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .image h3{
+        font-size:2.5rem;
+    }
+    .expand-text p{
+        margin: 0;
+    }
+    .about-list{
+        list-style: none;
+        
+    }
+    .about-list li{
+        font-size: 1.5rem;
+        color: rgb(34, 4, 24);
+    }
+    #body-centre{
+        text-align: center;
+    }
+    .bttn{
+        font-size: 30px;
+        background-color: rgb(0, 0, 0);
+        border: 1px solid rgb(0, 94, 255);
+        color: white;
+        border-radius: 10px;
+        padding: 5px;
+    } 
 }
 @media (max-width:1440px){
     #about--greet{
@@ -42,10 +88,11 @@
     }
     .bttn{
         font-size: 30px;
-        background-color: brown;
-        border: 1px solid rgb(0, 0, 0);
+        background-color: rgb(0, 0, 0);
+        border: 1px solid rgb(0, 94, 255);
+        color: white;
         border-radius: 10px;
-        padding: 10px;
+        padding: 5px;
     } 
 
     
