@@ -1,0 +1,160 @@
+
+ @media (max-width:2560px){
+    #typewrite-cont-ul li{
+        font-size:90px;
+    }
+    #typewrite-cont-ul{
+        height: 145px;
+    }
+    @keyframes slide{
+        100%{
+            top: -300px;
+        }
+    }
+}
+@media (max-width:1440px){
+    #typewrite-cont-ul li{
+        font-size:90px;
+    }
+    #typewrite-cont-ul{
+        height: 145px;
+    }
+    @keyframes slide{
+        100%{
+            top: -300px;
+        }
+    }
+}
+@media (max-width:1400px){
+    #typewrite-cont-ul li{
+        font-size:70px;
+    }
+    #typewrite-cont-ul{
+        height: 130px;
+    }
+    @keyframes slide{
+        100%{
+            top: -230px;
+        }
+    }
+}
+@media (max-width:1200px){
+    #typewrite-cont-ul li{
+        font-size:60px;
+    }
+    #typewrite-cont-ul{
+        height: 100px;
+    }
+    @keyframes slide{
+        100%{
+            top: -200px;
+        }
+    }
+}
+@media (max-width:1024px){
+    #typewrite-cont-ul{
+        height: 90px;
+    }
+    #typewrite-cont-ul li{
+        font-size:50px;
+    }
+    @keyframes slide{
+        100%{
+            top: -170px;
+        }
+    }
+}
+@media (max-width:995px){
+    #typewrite-cont-ul{
+        height: 80px;
+    }
+    #typewrite-cont-ul li{
+        font-size:40px;
+    }
+    @keyframes slide{
+        100%{
+            top: -145px;
+        }
+    }
+}
+@media (max-width:768px){
+    #typewrite-cont-ul{
+        height: 60px;
+    }
+    #typewrite-cont-ul li{
+        font-size:29px;
+    }
+    .profile-image{
+        width: 150px;
+        height: 170px;
+    }
+    @keyframes slide{
+        100%{
+            top: -110px;
+        }
+    }
+}
+@media (max-width:525px){
+    .profile-image{
+        width: 140px;
+        height: 160px;
+    }
+    #typewrite-cont-ul{
+        height: 45px;
+    }
+    #typewrite-cont-ul li{
+        font-size:21px;
+    }
+    @keyframes slide{
+        100%{
+            top: -80px;
+        }
+    }
+}
+@media (max-width:425px){
+    #typewrite-cont-ul{
+        height: 40px;
+    }
+    .profile-image{
+        width: 90px;
+        height: 140px;
+    }
+    #typewrite-cont-ul li{
+        font-size:17px;
+    }
+    @keyframes slide{
+        100%{
+            top: -70px;
+        }
+    }
+}
+@media (max-width:375px){
+    #typewrite-cont-ul{
+        height: 35px;
+    }
+    .profile-image{
+        width: 80px;
+        height: 130px;
+    }
+    #typewrite-cont-ul li{
+        font-size:15px;
+    }
+    @keyframes slide{
+        100%{
+            top: -65px;
+        }
+    }
+}
+@media (max-width:320px){
+    #typewrite-cont-ul{
+        height: 35px;
+    }
+    .profile-image{
+        width: 70px;
+        height: 120px;
+    }
+    #typewrite-cont-ul li{
+        font-size:15px;
+        min-width: 172px;
+    }
+} 

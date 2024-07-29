@@ -2,6 +2,12 @@ let icon = document.querySelector(".hamburger-icon");
 let links = document.querySelector(".profile-text");
 let texts = document.querySelectorAll(".text");
 let sections = document.querySelectorAll("section");
+let projectimg = document.querySelectorAll(".project-picture-cont img");
+let popup = document.querySelector(".popup-cont");
+let popuptwo = document.querySelector(".popup-cont-two");
+let popupthree = document.querySelector(".popup-cont-three");
+let popupfour = document.querySelector(".popup-cont-four");
+let closepopup = document.querySelectorAll(".popup-area-heading i");
 
 function menutoggle(){
 
@@ -32,6 +38,37 @@ for (const text of texts) {
     
     
 }
-body.addEventListener("scroll",()=>{
-    body.style.backgroundColor = "grey";
-})
+
+projectimg.forEach(img => {
+    img.addEventListener("click",()=>{
+        if(img.getAttribute("id")=="projectimg-amazon"){
+            popup.classList.add("active");
+        }
+        else if(img.getAttribute("id")=="projectimg-flipkart"){
+            popuptwo.classList.add("active");
+        }
+        else if(img.getAttribute("id")=="projectimg-rps"){
+            popupthree.classList.add("active");
+        }
+        else if(img.getAttribute("id")=="projectimg-tiktak"){
+            popupfour.classList.add("active");
+        }
+    })
+    closepopup.forEach(close => {
+        close.addEventListener("click",()=>{
+            if(img.getAttribute("id")=="projectimg-amazon"){
+                popup.classList.remove("active");
+            }
+            else if(img.getAttribute("id")=="projectimg-flipkart"){
+                popuptwo.classList.remove("active");
+            }
+            else if(img.getAttribute("id")=="projectimg-rps"){
+                popupthree.classList.remove("active");
+            }
+            else if(img.getAttribute("id")=="projectimg-tiktak"){
+                popupfour.classList.remove("active");
+            }
+        })
+    });
+});
+

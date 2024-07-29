@@ -25,7 +25,6 @@
     }
     .profile-text.active{
         left: 75%;
-        transition: all 1s ease-in-out;
     }
     
     
