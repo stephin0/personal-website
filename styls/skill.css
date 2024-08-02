@@ -1,0 +1,31 @@
+
+@media (max-width:2560px){
+}
+@media (max-width:1440px){
+}
+@media (max-width:1024px){
+}
+@media (max-width:550px){
+    .skillbar-span-one{
+        width: 400px;
+        height: 18px;
+    }
+}
+@media (max-width:460px){
+    .skillbar-span-one{
+        width: 300px;
+        height: 16px;
+    }
+}
+@media (max-width:360px){
+    .skillbar-span-one{
+        width: 200px;
+        height: 14px;
+    }
+}
+@media (max-width:260px){
+    .skillbar-span-one{
+        width: 100px;
+        height: 12px;
+    }
+}

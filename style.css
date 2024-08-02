@@ -169,6 +169,7 @@ a:hover{
     padding: 0;
     margin-left: 3rem;
     width: 100%;
+    margin: 0 20px;
 }
 .aboutme-ul hr{
     color: rgb(244, 236, 236);
@@ -191,11 +192,121 @@ a:hover{
     justify-content: center;
     margin-top: 3rem;
 }
+.aboutme-details{
+    position: relative;
+}
 .aboutme-personal div{
     border: 2px solid white;
     border-radius: 20px;
 }
-
+/*********** skills ************/
+#skills{
+    background-color: #2b2e30;
+    height: 100vh;
+    padding: 100px 0;
+}
+.skill-heading{
+    color: rgb(14, 164, 74);
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.skill-heading h2{
+    font-size: 80px;
+}
+.skill-heading p{
+    position: absolute;
+    top: 40%;
+    color: rgb(217, 73, 16);
+    text-shadow: 0 0 10px;
+}
+.skillsbar-container{
+    display: flex;
+    justify-content: center;
+}
+#skillbar-ul{
+    color: white;
+    list-style: none;
+    background-color: #48494c;
+    border-radius: 10px;
+    padding:0;
+}
+#skillbar-ul li{
+    margin: 1rem 1rem;
+}
+.skillbar-span-one{
+    background-color: rgb(38, 37, 37);
+    width: 500px;
+    height: 20px;
+    display: block;
+    border-radius: 10px;
+}
+#skillbar-html{
+    width: 0%;
+    height: inherit;
+    display: block;
+    border-radius: inherit;
+    background-color: #0D6EFD;
+    animation: slides 5s infinite;
+}
+@keyframes slides{
+    100%{
+        width: 60%;
+    }
+}
+#skillbar-css{
+    width: 0%;
+    height: inherit;
+    display: block;
+    border-radius: inherit;
+    background-color: #0D6EFD;
+    animation: slidesone 5s infinite;
+}
+@keyframes slidesone{
+    100%{
+        width: 60%;
+    }
+}
+#skillbar-js{
+    width: 0%;
+    height: inherit;
+    display: block;
+    border-radius: inherit;
+    background-color: #0D6EFD;
+    animation: slidestwo 5s infinite;
+}
+@keyframes slidestwo{
+    100%{
+        width: 20%;
+    }
+}
+#skillbar-wb{
+    width: 0%;
+    height: inherit;
+    display: block;
+    border-radius: inherit;
+    background-color: #0D6EFD;
+    animation: slidesthree 5s infinite;
+}
+@keyframes slidesthree{
+    100%{
+        width: 30%;
+    }
+}
+#skillbar-comm{
+    width: 0%;
+    height: inherit;
+    display: block;
+    border-radius: inherit;
+    background-color: #0D6EFD;
+    animation: slidesfour 5s infinite;
+}
+@keyframes slidesfour{
+    100%{
+        width: 50%;
+    }
+}
 /************** projects *************/
 #projects{
     background-color: #28231D;
@@ -219,10 +330,13 @@ a:hover{
     font-size: 20px;
     text-shadow: 0 0 10px;
 }
+#shf{
+    background-color: red;
+    margin: 0 auto;
+}
 .project-picture-cont{
     position: relative;
-    margin: 0 7rem;
-
+   /* margin-top: 10rem; */
 }
 .project-picture-cont p{
    color: white;
@@ -231,15 +345,12 @@ a:hover{
 #amazon-cont{
     position:absolute;
     top: 0;
-    left: 50px;
-}
-#flipkart-cont{
-    position: relative;
+    left: 200px;
 }
 #flipkart-cont{
     position:absolute;
     top: 200px;
-    left: 430px;
+    left: 600px;
 }
 #flipkart-cont img:hover {
    filter: brightness(.5);
@@ -256,12 +367,12 @@ a:hover{
 #tik-tak-cont{
     position:absolute;
     top: 250px;
-    left: 150px;
+    left: 320px;
 }
 #rps-cont{
     position:absolute;
     top: 100px;
-    left: 800px;
+    left: 980px;
 }
 .curve{
    border-radius: 10px;
@@ -331,11 +442,12 @@ a:hover{
     justify-content: center;
     color: white;
     padding-top: 2rem;
+    position: relative;
 }
 .popup-area-heading i{
-    position: relative;
+    position: absolute;
     margin-top: 1rem;
-    left: 450px;
+   right: 1rem;
 }
 #popup-area-value{
     display: flex;
@@ -359,7 +471,7 @@ a:hover{
 }
 #popup-area-details ul{
     margin-top: 2rem;
-    font-size: 19px;
+    font-size: 20px;
     list-style: none;
     padding: 0;
     width: 90%;
@@ -372,9 +484,6 @@ a:hover{
 #contact{
     background-color:#3B3C36;
     padding: 5rem 0;
-}
-.contact-details{
-    display:flex;
 }
 .contact-heading{
     display: flex;
@@ -400,7 +509,6 @@ a:hover{
 .contact-details-one{
     margin-left: 5rem;
     color: white;
-    
 }
 .contact-details-two{
     margin-left: 5rem;
@@ -507,7 +615,6 @@ strong{
 #about-me li{
     list-style: none;
     color: rgb(200, 197, 190);
-    font-size: 20px;
     text-align: start;
     font-weight: 600;
 }

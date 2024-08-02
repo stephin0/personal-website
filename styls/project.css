@@ -1,147 +1,377 @@
 
- @media (max-width:2560px){
-    
+@media (max-width:2560px){
 }
-@media (max-width:1440px){
- 
-   .hover{
-       padding:5px;
-       font-size: 18px;
-       margin: 0;
-       margin-top: 5px;
-       margin-bottom: 5px;
-       margin-left: 8px;
-       margin-right:8px;
-   }
-   .heading-1{
-       font-size: 1.5rem;
-   }
-   .projects-subtitle{
-      font-size: 16px;
-   }
-    .heading-project{
-      font-size: 40px;
-      margin-bottom: 1rem;
-   }
-   .space{
-    padding-top: 2rem;
-
-   }
+@media (max-width:1300px){
+    #amazon-cont img{
+        width: 220px;
+    }
+    #flipkart-cont img{
+        width: 290px;
+    }
+    #rps-cont img{
+        width: 230px;
+    }
+    #tik-tak-cont img{
+        width: 220px;
+    }
+    #amazon-cont {
+        left: 150px;
+    }
+    #flipkart-cont {
+        left: 550px;
+    }
+    #rps-cont {
+        left: 930px;
+    }
+    #tik-tak-cont {
+        left: 270px;
+    }
 }
-@media (max-width:1024px){
-  
-   .hover{
-       padding:2px;
-       font-size: 15px;
-       margin: 0;
-       margin-top: 5px;
-       margin-bottom: 5px;
-       margin-left: 5px;
-       margin-right:5px;
-   }
-   .heading-1{
-       font-size: 1rem;
-   }
-   .projects-subtitle{
-      font-size: 15px;
-   }
-    .heading-project{
-      font-size: 30px;
-      margin-bottom: 1rem;
-   }
-   .space{
-    padding-top: 1rem;
-
-   }
+@media (max-width:1200px){
+    #amazon-cont img{
+        width: 210px;
+    }
+    #flipkart-cont img{
+        width: 280px;
+    }
+    #rps-cont img{
+        width: 220px;
+    }
+    #tik-tak-cont img{
+        width: 210px;
+    }
+    #amazon-cont {
+        left: 120px;
+    }
+    #flipkart-cont {
+        left: 510px;
+    }
+    #rps-cont {
+        left: 860px;
+    }
+    #tik-tak-cont {
+        left: 230px;
+    }
+}
+@media (max-width:1100px){
+    #amazon-cont img{
+        width: 190px;
+    }
+    #flipkart-cont img{
+        width: 260px;
+    }
+    #rps-cont img{
+        width: 200px;
+    }
+    #tik-tak-cont img{
+        width: 190px;
+    }
+    #amazon-cont {
+        left: 100px;
+    }
+    #flipkart-cont {
+        left: 440px;
+    }
+    #rps-cont {
+        left: 780px;
+    }
+    #tik-tak-cont {
+        left: 180px;
+    }
+}
+@media (max-width:1000px){
+    #amazon-cont img{
+        width: 170px;
+    }
+    #flipkart-cont img{
+        width: 240px;
+    }
+    #rps-cont img{
+        width: 180px;
+    }
+    #tik-tak-cont img{
+        width: 170px;
+    }
+    #amazon-cont {
+        left: 100px;
+        top: 50px;
+    }
+    #flipkart-cont {
+        left: 380px;
+    }
+    #rps-cont {
+        left: 680px;
+    }
+    #tik-tak-cont {
+        left: 150px;
+    }
+}
+@media (max-width:900px){
+    #amazon-cont img{
+        width: 150px;
+    }
+    #flipkart-cont img{
+        width: 220px;
+    }
+    #rps-cont img{
+        width: 160px;
+    }
+    #tik-tak-cont img{
+        width: 150px;
+    }
+    #amazon-cont {
+        left: 80px;
+        top: 50px;
+    }
+    #flipkart-cont {
+        left: 330px;
+    }
+    #rps-cont {
+        left: 600px;
+    }
+    #tik-tak-cont {
+        left: 130px;
+    }
 }
 @media (max-width:768px){
-    
-   .hover{
-       padding:3px;
-       font-size: 12px;
-       margin: 0;
-       margin-top: 5px;
-       margin-bottom: 5px;
-   }
-   .heading-1{
-       font-size: 1rem;
-   }
-   .projects-subtitle{
-      font-size: 12px;
-   }
-    .heading-project{
-      font-size: 20px;
-      margin-bottom: 1rem;
-   }
-   .space{
-    padding-top: 1rem;
-
-   }
-}
-@media (max-width:425px){
-
-   .hover{
-       padding:2px;
-       font-size: 11px;
-       margin: 0;
-       margin-top: 5px;
-       margin-bottom: 5px;
-   }
-   .heading-1{
-       font-size: 1rem;
-   }
-   .projects-subtitle{
-      font-size: 12px;
-   }
-    .heading-project{
-      font-size: 22px;
-      margin-bottom: 1rem;
-   }
-   .space{
-    padding-top: 1rem;
-
-   }
-  
-}
-@media (max-width:375px){
-
-   .hover{
-       padding:1px;
-       font-size: 10px;
-       margin: 0;
-       margin-top: 5px;
-       margin-bottom: 5px;
-   }
-   .heading-1{
-       font-size: .8rem;
-   }
-   .space{
-    padding-top: 2rem;
-}
-.space{
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.space-1{
-    margin-bottom: .5rem;
-}
-}
-@media (max-width:320px){
-
-    .heading-1{
-        font-size: .8rem;
+    #amazon-cont img{
+        width: 130px;
     }
-    .space{
-        padding-top: 2rem;
+    #flipkart-cont img{
+        width: 200px;
     }
-    .space{
-        display: flex;
-        flex-direction: column;
-        padding: 0;
-        justify-content: space-evenly;
-        align-items: center;
+    #rps-cont img{
+        width: 140px;
+    }
+    #tik-tak-cont img{
+        width: 130px;
+    }
+    #amazon-cont {
+        left: 50px;
+        top: 50px;
+    }
+    #flipkart-cont {
+        left: 250px;
+    }
+    #rps-cont {
+        left: 500px;
+    }
+    #tik-tak-cont {
+        left: 80px;
+    }
+}
+@media (max-width:650px){
+    #amazon-cont img{
+        width: 120px;
+    }
+    #flipkart-cont img{
+        width: 180px;
+    }
+    #rps-cont img{
+        width: 120px;
+    }
+    #tik-tak-cont img{
+        width: 110px;
+    }
+    #amazon-cont {
+        left: 50px;
+        top: 50px;
+    }
+    #flipkart-cont {
+        left: 230px;
+    }
+    #rps-cont {
+        left: 450px;
+    }
+    #tik-tak-cont {
+        left: 80px;
+    }
+    #popup-area-details p{
+        font-size: 16px;
+    }
+    #popup-area-details ul{
+        font-size: 16px;
+    }
+}
+@media (max-width:580px){
+    #amazon-cont img{
+        width: 110px;
+    }
+    #flipkart-cont img{
+        width: 160px;
+    }
+    #rps-cont img{
+        width: 110px;
+    }
+    #tik-tak-cont img{
+        width: 100px;
+    }
+    #amazon-cont {
+        left: 50px;
+    }
+    #flipkart-cont {
+        left: 200px;
+    }
+    #rps-cont {
+        left: 390px;
+    }
+    #tik-tak-cont {
+        left: 70px;
+    }
+    #popup-area-details p{
+        font-size: 14px;
+    }
+    #popup-area-details ul{
+        font-size: 14px;
+    }
+}
+@media (max-width:510px){
+    #amazon-cont img{
+        width: 100px;
+    }
+    #flipkart-cont img{
+        width: 150px;
+    }
+    #rps-cont img{
+        width: 100px;
+    }
+    #tik-tak-cont img{
+        width: 90px;
+    }
+    #amazon-cont {
+        left: 40px;
+    }
+    #flipkart-cont {
+        left: 170px;
+    }
+    #rps-cont {
+        left: 345px;
+    }
+    #tik-tak-cont {
+        left: 50px;
+    }
+    #popup-area-details p{
+        font-size: 12px;
+    }
+    #popup-area-details ul{
+        font-size: 12px;
+    }
+}
+@media (max-width:510px){
+    #amazon-cont img{
+        width: 100px;
+    }
+    #flipkart-cont img{
+        width: 150px;
+    }
+    #rps-cont img{
+        width: 100px;
+    }
+    #tik-tak-cont img{
+        width: 90px;
+    }
+    #amazon-cont {
+        left: 40px;
+    }
+    #flipkart-cont {
+        left: 170px;
+    }
+    #rps-cont {
+        left: 345px;
+    }
+    #tik-tak-cont {
+        left: 50px;
+    }
+}
+@media (max-width:450px){
+    #amazon-cont img{
+        width: 80px;
+    }
+    #flipkart-cont img{
+        width: 120px;
+    }
+    #rps-cont img{
+        width: 80px;
+    }
+    #tik-tak-cont img{
+        width: 70px;
+    }
+    #amazon-cont {
+        left: 40px;
+    }
+    #flipkart-cont {
+        left: 160px;
+    }
+    #rps-cont {
+        left: 305px;
+    }
+    #tik-tak-cont {
+        left: 60px;
+    }
+    #popup-area-details p{
+        font-size: 10px;
+    }
+    #popup-area-details ul{
+        font-size: 10px;
+    }
+}
+@media (max-width:390px){
+    #amazon-cont img{
+        width: 70px;
+    }
+    #flipkart-cont img{
+        width: 110px;
+    }
+    #rps-cont img{
+        width: 70px;
+    }
+    #tik-tak-cont img{
+        width: 60px;
+    }
+    #amazon-cont {
+        left: 30px;
+    }
+    #flipkart-cont {
+        left: 150px;
+    }
+    #rps-cont {
+        left: 280px;
+    }
+    #tik-tak-cont {
+        left: 60px;
+    }
+}
+@media (max-width:355px){
+    #amazon-cont {
+        left: 20px;
+    }
+    #flipkart-cont {
+        left: 130px;
+    }
+    #rps-cont {
+        left: 260px;
+    }
+    #tik-tak-cont {
+        left: 40px;
+    }
+}
+@media (max-width:335px){
+    #amazon-cont {
+        left: 10px;
+    }
+    #flipkart-cont {
+        left: 110px;
+    }
+    #rps-cont {
+        left: 240px;
+    }
+    #tik-tak-cont {
+        left: 30px;
+    }
+    #popup-area-details p{
+        font-size: 8px;
+    }
+    #popup-area-details ul{
+        font-size: 8px;
     }
 }

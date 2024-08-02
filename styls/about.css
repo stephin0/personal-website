@@ -1,224 +1,120 @@
 
  @media (max-width:2560px){
-    #about--greet{
-        font-size: 30px;
-        margin: 0;
-    }
-    #about-name{
-        font-size:70px;
-    }
-    #about-description{
-        font-size:30px;
-        max-width: 60ch;
-        margin: 0 auto;
-    }
-     .image img{
-        width: 40px;
-        border-radius: 50%;
-    } 
-    .image{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .image h3{
-        font-size:2.5rem;
-    }
-    .expand-text p{
-        margin: 0;
-    }
-    .about-list{
-        list-style: none;
-        
-    }
-    .about-list li{
-        font-size: 1.5rem;
-        color: rgb(34, 4, 24);
-    }
-    #body-centre{
-        text-align: center;
-    }
-    .bttn{
-        font-size: 30px;
-        background-color: rgb(0, 0, 0);
-        border: 1px solid rgb(0, 94, 255);
-        color: white;
-        border-radius: 10px;
-        padding: 5px;
-    } 
+
 }
 @media (max-width:1440px){
-    #about--greet{
-        font-size: 30px;
-        margin: 0;
-    }
-    #about-name{
-        font-size:70px;
-    }
-    #about-description{
-        font-size:30px;
-        max-width: 60ch;
-        margin: 0 auto;
-    }
-     .image img{
-        width: 40px;
-        border-radius: 50%;
-    } 
-    .image{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .image h3{
-        font-size:2.5rem;
-    }
-    .expand-text p{
-        margin: 0;
-    }
-    .about-list{
-        list-style: none;
-        
-    }
-    .about-list li{
-        font-size: 1.5rem;
-        color: rgb(34, 4, 24);
-    }
-    #body-centre{
-        text-align: center;
-    }
-    .bttn{
-        font-size: 30px;
-        background-color: rgb(0, 0, 0);
-        border: 1px solid rgb(0, 94, 255);
-        color: white;
-        border-radius: 10px;
-        padding: 5px;
-    } 
+
 
     
 }
-@media (max-width:1024px){
-    #about--greet{
-        font-size: 25px;
-    }
-    #about-name{
-        font-size:50px;
-    }
-    #about-description{
-        font-size:25px;
-        max-width: 60ch;
-    }
-     .image img{
-        width: 40px;
-    } 
-    .image h3{
-        font-size:2rem;
-    }
-    .about-list li{
-        font-size: 1rem;
-    }
-    .bttn{
-        font-size: 20px;
+@media (max-width:1200px){
+    .aboutme-personal{
+        display: grid;
+        grid-template-rows: 200px 200px;
+        grid-template-columns: 400px 400px;
+        gap: 1rem;
+        justify-content: center;
+        margin-top: 3rem;
     }
 }
-@media (max-width:768px){
-    #about--greet{
-        font-size: 20px;
+@media (max-width:950px){
+    .aboutme-personal{
+        display: grid;
+        grid-template-rows: 200px 200px;
+        grid-template-columns: 350px 350px;
+        gap: 1rem;
+        justify-content: center;
+        margin-top: 3rem;
     }
-    #about-name{
-        font-size:40px;
+}
+@media (max-width:800px){
+    .aboutme-personal{
+        display: grid;
+        grid-template-rows: 200px 200px;
+        grid-template-columns: 280px 280px;
+        gap: 1rem;
+        justify-content: center;
+        margin-top: 3rem;
     }
-    #about-description{
-        font-size:20px;
-    } 
-    .image h3{
-        font-size:1.5rem;
+    .aboutme-container{
+        flex-direction: column;
     }
-    .about-list li{
-        font-size: .9rem;
+    .aboutme-discription{
+        max-width: 600px;
+        align-self: center;
     }
-    .bttn{
+    .aboutme-discription p{
+        text-align: center;
+    }
+    .aboutme-discription h3{
+        text-align: center;
+    }
+    .aboutme-ul{
+        width: 90%;
+    }
+}
+@media (max-width:600px){
+    .aboutme-personal{
+        display: grid;
+        grid-template-rows: 200px 200px;
+        grid-template-columns: 240px 240px;
+        gap: 1rem;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+    .aboutme-personal li{
         font-size: 15px;
     }
 }
+@media (max-width:525px){
+    .aboutme-personal{
+        display: grid;
+        grid-template-rows: 200px 200px;
+        grid-template-columns: 205px 205px;
+        gap: .5rem;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+    .aboutme-personal li{
+        font-size: 13px;
+    }
+}
 @media (max-width:425px){
-    #about--greet{
-        font-size: 10px;
+    .aboutme-personal{
+        display: grid;
+        grid-template-rows: 200px 200px;
+        grid-template-columns: 180px 180px;
+        gap: .5rem;
+        justify-content: center;
+        margin-top: 3rem;
     }
-    #about-name{
-        font-size:30px;
-    }
-    #about-description{
-        font-size:15px;
-    } 
-    .image h3{
-        font-size:1rem;
-    }
-    .image img{
-        width: 20px;
-        position: relative;
-        bottom: 3px;
-    }
-    .about-list li{
-        font-size: .5rem;
-    }
-    .about-list{
-        padding: 0;
-    }
-    .bttn{
-        font-size: 10px;
-        padding: 6px;
-       
-    }
-}
-@media (max-width:375px){
-    #about--greet{
-        font-size: 10px;
-    }
-    #about-name{
-        font-size:25px;
-    }
-    #about-description{
-        font-size:12px;
-    } 
-    .image h3{
-        font-size:.9rem;
-    }
-    .about-list li{
-        font-size: .4rem;
-    }
-    .image img{
-        width: 18px;
-    }
-    .bttn{
-        font-size: 8px;
-        padding: 5px;
-       
-    }
-    
-}
-@media (max-width:320px){
-    #about--greet{
-        font-size: 10px;
-    }
-    #about-name{
-        font-size:20px;
-    }
-    #about-description{
-        font-size:10px;
-    } 
-    .image h3{
-        font-size:.7rem;
-    }
-    .image img{
-        width: 16px;
-    }
-    .about-list li{
-        font-size: .4rem;
+    .aboutme-personal li{
+        font-size: 13px;
     }
 } 
-@media (max-width:300px){
-    .about-list li{
-        font-size: .3rem;
+@media (max-width:375px){
+    .aboutme-personal{
+        display: grid;
+        grid-template-rows: 180px 180px;
+        grid-template-columns: 160px 160px;
+        gap: .5rem;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+    .aboutme-personal li{
+        font-size: 10px;
+    }
+}
+@media (max-width:350px){
+    .aboutme-personal{
+        display: grid;
+        grid-template-rows: 150px 150px;
+        grid-template-columns: 140px 140px;
+        gap: .5rem;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+    .aboutme-personal li{
+        font-size: 8px;
     }
 }
