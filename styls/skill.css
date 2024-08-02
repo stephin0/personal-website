@@ -9,6 +9,7 @@
     .skillbar-span-one{
         width: 400px;
         height: 18px;
+        background-color: wheat;
     }
 }
 @media (max-width:460px){
