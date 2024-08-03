@@ -8,10 +8,8 @@
     flex-direction: column;
 }
 #typewrite-cont-ul{
-    padding: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
     text-align: start;
     margin-left: 1rem;
     overflow: hidden;
@@ -19,7 +17,7 @@
 }
 #typewrite-cont-ul li{
     list-style: none;
-    display: inline-block;
+    
     margin-bottom: 10px;
     margin-top: 5px;
     font-size:25px;
@@ -33,9 +31,9 @@
         top: -250px;
     }
 }
-#typewrite-cont-ul li::after{
-   content: '|';
-   color: red;
+#typewrite-ul-lione::after{
+   content: '';
+   border-left:5px solid rgb(255, 255, 255) ;
    position: absolute;
     left: 0%;
     background-color: #282C35;
@@ -45,7 +43,22 @@
 }
 @keyframes typing{
     50%{
-       left: 105%;
+       left: 82%;
+    }
+}
+#typewrite-ul-litwo::after{
+   content: '';
+   border-left:5px solid rgb(255, 255, 255) ;
+   position: absolute;
+    left: 0%;
+    background-color: #282C35;
+    height: 100%;
+    width: 100%;
+    animation: typingtwo 10s steps(17) infinite;
+}
+@keyframes typingtwo{
+    50%{
+       left: 60%;
     }
 }
 #welcome{

@@ -103,11 +103,11 @@
         height: 45px;
     }
     #typewrite-cont-ul li{
-        font-size:21px;
+        font-size:25px;
     }
     @keyframes slide{
         100%{
-            top: -80px;
+            top: -86px;
         }
     }
 }
@@ -120,7 +120,7 @@
         height: 140px;
     }
     #typewrite-cont-ul li{
-        font-size:17px;
+        font-size:20px;
     }
     @keyframes slide{
         100%{
@@ -137,7 +137,7 @@
         height: 130px;
     }
     #typewrite-cont-ul li{
-        font-size:15px;
+        font-size:16px;
     }
     @keyframes slide{
         100%{
