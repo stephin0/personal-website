@@ -256,69 +256,110 @@ a:hover{
     border-radius: 10px;
 }
 #skillbar-html{
-    width: 0%;
+    width: 60%;
     height: inherit;
     display: block;
     border-radius: inherit;
     background-color: #0D6EFD;
-    animation: slides 5s infinite;
+    animation: slides 5s ;
 }
 @keyframes slides{
+    0%{
+        width: 0%;
+    }
     100%{
         width: 60%;
     }
 }
 #skillbar-css{
-    width: 0%;
+    width: 60%;
     height: inherit;
     display: block;
     border-radius: inherit;
     background-color: #0D6EFD;
-    animation: slidesone 5s infinite;
+    animation: slidesone 5s ;
 }
 @keyframes slidesone{
+    0%{
+        width: 0%;
+    }
     100%{
         width: 60%;
     }
 }
 #skillbar-js{
-    width: 0%;
+    width: 20%;
     height: inherit;
     display: block;
     border-radius: inherit;
     background-color: #0D6EFD;
-    animation: slidestwo 5s infinite;
+    animation: slidestwo 5s ;
 }
 @keyframes slidestwo{
+    0%{
+        width: 0%;
+    }
     100%{
         width: 20%;
     }
 }
 #skillbar-wb{
-    width: 0%;
+    width: 30%;
     height: inherit;
     display: block;
     border-radius: inherit;
     background-color: #0D6EFD;
-    animation: slidesthree 5s infinite;
+    animation: slidesthree 5s ;
 }
 @keyframes slidesthree{
+    0%{
+        width: 0%;
+    }
     100%{
         width: 30%;
     }
 }
 #skillbar-comm{
-    width: 0%;
+    width: 50%;
     height: inherit;
     display: block;
     border-radius: inherit;
     background-color: #0D6EFD;
-    animation: slidesfour 5s infinite;
+    animation: slidesfour 5s ;
 }
 @keyframes slidesfour{
+    0%{
+        width: 0%;
+    }
     100%{
         width: 50%;
     }
+}
+/************** quotes ***************/
+
+#inspiration{
+    background-color: #232A31;
+    padding: 5rem;
+}
+#inspiration h2{
+    color: white;
+    text-align: center;
+}
+.inspiration-image-container{
+    display:grid;
+    grid-template-columns: repeat(4,20%);
+    grid-template-rows: repeat(2,300px);
+    justify-content: center;
+    column-gap: 2rem;
+}
+.inspiration-image-holder{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.inspiration-image-holder img{
+    width: 100%;
 }
 /************** projects *************/
 #projects{
