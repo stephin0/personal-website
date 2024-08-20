@@ -1,6 +1,7 @@
 *{
     padding:0;
     margin:0;
+    border: border-box;
 }
 
 /*******  herosection *******/
@@ -588,11 +589,18 @@ a:hover{
 #name-email input{
     width: 450px;
     height: 60px;
-    margin-bottom: 2rem;
     border-radius: 5px;
     background-color: #232A31;
     border: none;
     padding: 13px 15px;
+}
+#mess{
+    display: flex;
+    flex-direction: column-reverse;
+    color: red;
+}
+.space-maker{
+    height: 30px;
 }
 #mess textarea{
     width: 100%;
@@ -615,8 +623,22 @@ a:hover{
    color: white;
    background-color: #0d6efd;
 }
-
-
+.nameemail-name{
+    display: flex;
+    flex-direction:column-reverse;
+    color: red;
+}
+.nameemail-email{
+    display: flex;
+    flex-direction:column-reverse;
+    color: red;
+}
+.nameemail-email label{
+    height: 2rem;
+}
+.nameemail-name label{
+    height: 2rem;
+}
 
 
 section a{

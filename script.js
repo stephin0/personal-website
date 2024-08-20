@@ -72,3 +72,33 @@ projectimg.forEach(img => {
     });
 });
 
+//// form ////
+
+$(document).ready(function(){
+    $("#form").validate({
+        rules:{
+            name:{
+                required:true,
+                minlength:5
+            },
+            email:{
+                required:true,
+                email:true,
+            },
+            textarea:{
+                required:true
+            }
+        },
+        messages:{
+            name:{
+                required:"Please enter your name"
+            },
+            email:{
+                required:" Please enter your email"
+            }
+        },
+        submitHandler: function(form){
+            form.submit();
+        }
+    })
+})

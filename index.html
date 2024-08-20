@@ -369,25 +369,34 @@
                     <i class="fa-brands fa-facebook fa-xl"></i>
                 </div>
             </div>
-            <div class="contact-details-two">
-                <h3>SEND US A NOTE</h3>
-                <div id="name-email">
-                    <input type="text" placeholder="Name">
-                    <input type="email" placeholder="Email">
+            <form action="form.html" id="form">
+                <div class="contact-details-two">
+                    <h3>SEND US A NOTE</h3>
+                    <div id="name-email">
+                        <div class="nameemail-name">
+                            <input name="name"  type="text" placeholder="Name">
+                        </div>
+                        <div class="nameemail-email">
+                            <input name="email"  type="email" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="space-maker"></div>
+                    <div id="mess">
+                        <textarea name="textarea" id="" placeholder="Type your message here...."></textarea>
+                    </div>
+                    <div class="sendmssg">
+                        <button >Send Message</button>
+                    </div>
                 </div>
-                <div id="mess">
-                    <textarea name="" id="">Send me a message....</textarea>
-                </div>
-                <div class="sendmssg">
-                    <button>Send Message</button>
-                </div>
-            </div>
+            </form>
+           
         </div>
     </section>
 
       
 
-
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
      <script src="script.js"></script>
 </body>
 </html>
